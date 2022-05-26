@@ -1,52 +1,23 @@
 {
   "name": "cra-custom",
-  "version": "0.1.1",
+  "version": "1.0.6",
+  "description": "Creates a starter svelte application template",
   "bin": {
-    "cra-custom": "bin/cli.js"
-  },
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "cra-custom": "bin/createSvelteApp.js"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "svelte3-app": "svelte-app"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
+  "author": "Oleksandr Demian",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "svelte",
+    "app"
+  ],
+  "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/harish19/cra-custom.git"
-  },
-  "bugs": {
-    "url": "https://github.com/harish19/cra-custom/issues"
-  },
-  "homepage": "https://github.com/harish19/cra-custom#readme",
-  "main": "index.js",
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "url": "https://github.com/harish19/cra-custom.git"
+  }
 }
