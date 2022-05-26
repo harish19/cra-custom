@@ -6,7 +6,7 @@ const { SHOW_CURSOR,create } = require("../lib/spinner");
 const {execSync} = require('child_process');
 
 const repoName = process.argv[2];
-const gitCheckoutCommand = `git clone --depth 1 https://github.com/harish19/react-ssr-csr.git ${repoName}`;
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/harish19/notification.git ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
 const runCommand = command =>{
     try{
