@@ -16,7 +16,7 @@ const init = (args)=>{
         print("Initialising the app", GREEN);
         console.log(args);
         spinner.stop();
-    },200)
+    },20000)
     
 
 }
