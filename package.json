@@ -1,9 +1,9 @@
 {
-  "name": "cra-custom",
+  "name": "npx-custom-command",
   "version": "1.0.0",
   "description": "Creates a starter svelte application template",
   "bin": {
-    "cra-custom": "bin/cli.js"
+    "npx-custom-command": "bin/cli.js"
   },
   "scripts": {
   },
@@ -16,6 +16,6 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/harish19/cra-custom.git"
+    "url": "https://github.com/harish19/npx-custom-command.git"
   }
 }
