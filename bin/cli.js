@@ -1,7 +1,6 @@
 #! /usr/bin/env node
 
 const { GREEN, YELLOW, RED, print } = require("../utils/consoleColors");
-const argsUtils = require("../utils/args");
 const { SHOW_CURSOR,create } = require("../lib/spinner");
 
 const {execSync} = require('child_process');
