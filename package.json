@@ -1,7 +1,9 @@
 {
   "name": "@harish19/cra-custom",
   "version": "0.1.1",
-  "bin": "./bin/cli.js",
+  "bin": {
+    "@harish19/cra-custom":"./bin/cli.js"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
