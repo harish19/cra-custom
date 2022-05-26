@@ -1,6 +1,8 @@
 #! /usr/bin/env node
 
 const { GREEN, YELLOW, RED, print } = require("../utils/consoleColors");
+const { SHOW_CURSOR } = require("../lib/spinner");
+
 
 console.clear();
 print("my app created successfully", GREEN);
