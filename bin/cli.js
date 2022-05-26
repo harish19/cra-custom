@@ -15,8 +15,7 @@ const init = (args)=>{
 
 // EXECUTION
 try {
-    const args = argsUtils.getInput(process.argv);
-    init(args);
+    init(process.argv);
 } catch (e) {
     print(e, RED);
     SHOW_CURSOR();
