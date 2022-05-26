@@ -1,9 +1,8 @@
 {
-  "name": "@harish19/cra-custom",
+  "name": "cra-custom",
   "version": "0.1.1",
   "bin": {
-    "@harish19/cra-custom":"bin/cli.js",
-    "cra-custom":"bin/cli.js"
+    "cra-custom": "bin/cli.js"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -40,6 +39,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/harish19/cra-custom.git"
-  }
+    "url": "git+https://github.com/harish19/cra-custom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harish19/cra-custom/issues"
+  },
+  "homepage": "https://github.com/harish19/cra-custom#readme",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
