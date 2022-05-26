@@ -1,7 +1,6 @@
 {
   "name": "@harish19/cra-custom",
   "version": "0.1.0",
-  "private": true,
   "bin": "./bin/cli.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -16,8 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "gitpush":"git push https://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@github.com/harish19/cra-custom.git"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
