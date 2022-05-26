@@ -3,7 +3,7 @@
   "version": "1.0.6",
   "description": "Creates a starter svelte application template",
   "bin": {
-    "cra-custom": "bin/createSvelteApp.js"
+    "cra-custom": "bin/cli.js"
   },
   "scripts": {
     "svelte3-app": "svelte-app"
