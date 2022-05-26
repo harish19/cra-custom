@@ -1,6 +1,5 @@
 #! /usr/bin/env node
 const commands = require("../lib/commands");
-const argsUtils = require("../utils/args");
 const { GREEN, YELLOW, RED, print } = require("../utils/consoleColors");
 const { SHOW_CURSOR } = require("../lib/spinner");
 
@@ -63,8 +62,7 @@ const createTemplate = (args) => {
 
 // EXECUTION
 try {
-    const args = argsUtils.getInput(INPUT_VALIDATION);
-    createTemplate(args);
+    createTemplate(process.argv);
 } catch (e) {
     print(e, RED);
     SHOW_CURSOR();
