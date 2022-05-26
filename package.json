@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "gitpush":"git push https://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@github.com/harish19/cra-custom.git"
   },
   "eslintConfig": {
     "extends": [
