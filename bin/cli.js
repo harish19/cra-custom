@@ -5,7 +5,7 @@ const argsUtils = require("../utils/args");
 const { SHOW_CURSOR } = require("../lib/spinner");
 
 
-console.clear();
+// console.clear();
 print("you are in right process", GREEN);
 
 const init = (args)=>{
