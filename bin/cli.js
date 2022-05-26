@@ -5,9 +5,10 @@ const { SHOW_CURSOR } = require("../lib/spinner");
 
 
 console.clear();
-print("my app created successfully", GREEN);
+print("you are in right process", GREEN);
 
 const init = (args)=>{
+    print("Initialising the app", GREEN);
     console.log(args);
 
 }
